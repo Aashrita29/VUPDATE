@@ -1,0 +1,23 @@
+body{
+    color: rgb(196, 134, 144);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: url("images/v3-2.jpg");
+    background-position: centre;
+    padding:  250px;
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+}
